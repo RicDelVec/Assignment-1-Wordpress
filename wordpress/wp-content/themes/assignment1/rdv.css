@@ -1,0 +1,51 @@
+/*
+    Theme Name: RDV
+    Description: Custom theme for RDV.
+    Author: Riccardo Del Vecchio
+*/
+
+/* Main page styling */
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    bottom: 150px;
+}
+
+/* Styling links */
+
+#site-header > div.header-inner.section-inner > div.header-navigation-wrapper > nav > ul > li > a {
+    color: cyan;
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.page_item.page-item-9.current_page_item.current-menu-item > div > a {
+    color: cyan;
+}
+
+/* Styling main section with posts */
+
+#main > section > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 100px;
+}
+
+#main > section > div > div {
+    width: 20vw;
+}
+
+#main > section > div > div > div > h3 {
+    font-size: 5vw;
+}
+
+/* Styling Footer */
+
+#site-footer {
+    text-align: center;
+}

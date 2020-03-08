@@ -1,11 +1,11 @@
 <?php
 /**
- * Header file for the Assignment 1 WordPress theme.
+ * Header file for the RDV theme.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Assignment_1
+ * @subpackage RDV
  * @since 1.0.0
  */
 

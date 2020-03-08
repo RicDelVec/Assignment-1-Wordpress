@@ -10,7 +10,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Assignment_1
+ * @subpackage RDV
  * @since 1.0.0
  */
 

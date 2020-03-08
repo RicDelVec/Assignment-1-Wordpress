@@ -1,11 +1,11 @@
 <?php
 /**
- * Twenty Twenty functions and definitions
+ * RDV functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
+ * @subpackage RDV
  * @since 1.0.0
  */
 
@@ -192,7 +192,7 @@ function twentytwenty_register_styles() {
 	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
 
 	// Add custom CSS.
-	wp_enqueue_style( 'assignment1-style', get_template_directory_uri() . '/ass1.css');
+	wp_enqueue_style( 'rdv-style', get_template_directory_uri() . '/rdv.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );
