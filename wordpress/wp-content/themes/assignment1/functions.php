@@ -192,7 +192,7 @@ function twentytwenty_register_styles() {
 	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
 
 	// Add custom CSS.
-	wp_enqueue_style( 'rdv-style', get_template_directory_uri() . '/rdv.css');
+	wp_enqueue_style( 'assignment1-style', get_template_directory_uri() . '/rdv.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );
