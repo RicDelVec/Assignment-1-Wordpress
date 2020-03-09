@@ -7,7 +7,7 @@
 /* Main page styling */
 
 body {
-    /* text-align: center; */
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > 
 }
 
 #main > section > div > div > div > h3 {
-    font-size: 5vw;
+    font-size: 1vw;
 }
 
 /* Styling Footer */
