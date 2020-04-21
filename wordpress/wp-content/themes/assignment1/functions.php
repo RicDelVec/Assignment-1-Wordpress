@@ -795,6 +795,33 @@ function photography_init(){
 }
 add_action('init', 'photography_init');
 
+function featured_init(){
+	$args = array(
+		'label' => 'Featured',
+		'public' => true,
+		'show_ui' => true,
+		'capabililty_type' => 'post',
+		'hierarchical' => false,
+		'rewrite' => array('slug' => 'featured'),
+		'query_var' => true,
+		'menu_icon' => 'dashicons-camera-alt',
+		'supports' => array(
+			'title',
+			'editor',
+			'excerpt',
+			'trackbacks',
+			'custom-fields',
+			'comments',
+			'revisions',
+			'thumbnail',
+			'author',
+			'page-attributes'
+		)
+	);
+	register_post_type('featured', $args);
+}
+add_action('init', 'featured_init');
+
 // Photography Shortcode
 function photography() {
 	$query = new WP_Query(array('post_type' => 'photography', 'posts_per_page' => 10));

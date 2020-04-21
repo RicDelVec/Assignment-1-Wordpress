@@ -13,7 +13,12 @@ body {
 
 h1 {
     position: relative;
-    bottom: 150px;
+    bottom: 15vh;
+}
+
+.entry-title {
+    position: relative;
+    bottom: 10vh;
 }
 
 /* Styling links */
@@ -22,7 +27,7 @@ h1 {
     color: cyan;
 }
 
-body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li.page_item.page-item-9.current_page_item.current-menu-item > div > a {
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li a{
     color: cyan;
 }
 
@@ -41,11 +46,140 @@ body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > 
 }
 
 #main > section > div > div > div > h3 {
-    font-size: 1vw;
+    font-size: 2vw;
+}
+
+/* Styling Page written content */
+
+#post-2 > div.post-inner.thin > div {
+    position: relative;
+    bottom: 10vh;
+    text-align: left;
+}
+
+#post-2 > div.post-inner.thin > div > blockquote {
+    border-left: cyan solid;
+}
+
+/* Styling Form */
+
+#wpcf7-f68-p63-o1 > form > p:nth-child(6) > input {
+    background-color: cyan;
+}
+
+#wpcf7-f68-p63-o1 > form > p:nth-child(6){
+    text-align: center;
+}
+
+#wpcf7-f68-p63-o1 > form {
+    position: relative;
+    bottom: 10vh;
+    text-align: left;
+    font-size: 3vw;
+}
+
+#wpcf7-f68-p63-o1 > form > p > label {
+    font-size: 1.2vw;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+    color: cyan;
 }
 
 /* Styling Footer */
 
-#site-footer {
-    text-align: center;
+#site-footer > div {
+    width: 300px;
+}
+
+/* Styling Featured page */
+#main > section > div > .foto-content {
+    width: 40vw;
+}
+
+/* Styling Woocommerce pages */
+div.post-inner.thin > div > div > ul > li > a > h2 {
+    color: cyan;
+}
+
+div.post-inner.thin > div > div > ul > li > a.button {
+    background-color: cyan;
+    color: black;
+}
+
+div.post-inner.thin > div > div > ul > li > a > span.onsale {
+    background-color: cyan;
+    opacity: 0.9;
+    color: white;
+}
+
+#post-93 > div.post-inner.thin > div > div {
+    margin: 0 5vw;
+}
+
+div.post-inner.thin > div > div > ul {
+    width: 90vw;
+    font-family: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.post-inner.thin > div > div > ul > li {
+    margin: 20px;
+}
+
+#post-93 > div.post-inner.thin > div > div > ul > li.product.type-product.post-108.status-publish.last.instock.product_cat-cold.product_tag-growth.has-post-thumbnail.sale.shipping-taxable.purchasable.product-type-simple {
+    margin-right: 50px;
+}
+
+div.post-inner.thin > div > div > p {
+    color: cyan;
+}
+
+div.post-inner.thin > div > div > form > select {
+    background-color: cyan;
+    color: white;
+    position: relative;
+    left: 49vw;
+}
+
+div.post-inner.thin > div > div > form > table > tbody > tr > td > div > button {
+    background-color: cyan;
+    color: white;
+}
+
+div.post-inner.thin > div > div > form > table {
+    width: 90vw;
+    position: relative;
+    right: 50vw;
+}
+
+div.post-inner.thin > div > div > form > table > tbody > tr> td.product-thumbnail > a > img {
+    width: 50px;
+}
+
+div.post-inner.thin > div > div > div.cart-collaterals > div > div > a {
+    background-color: cyan;
+    color: white;
+}
+
+div.post-inner.thin > div > div > div.cart-collaterals > div > div > a:hover {
+    background-color: white;
+    color: cyan;
+}
+
+#place_order {
+    background-color: cyan;
+    color: white;
+}
+
+#place_order:hover {
+    background-color: white;
+    color: cyan;
+}
+
+#post-94 > div.post-inner.thin > div {
+    position: relative;
+    left: 24vw;
 }
